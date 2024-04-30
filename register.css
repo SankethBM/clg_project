@@ -1,15 +1,21 @@
+html,
 body {
     margin: 0;
     padding: 0;
     line-height: normal;
-    font-family: var(--font-itim);
+    box-sizing: border-box;
+    /* font-family: var(--font-itim); */
     /* font-family: "Anta", sans-serif; */
     transition: transform 0.3s ease;
+    min-width: 100vh;
+    margin: 0 auto;
 }
+
+
 
 :root {
     /* fonts */
-    --font-itim: Itim;
+    /* --font-itim: Itim; */
 
     /* font sizes */
     --font-size-6xl: 25px;
@@ -37,6 +43,14 @@ body {
     -webkit-text-fill-color: transparent;
     font-family: var(--font-itim);
     cursor: pointer;
+}
+
+.logo-img {
+    height: 100px;
+    width: 150px;
+    display: block;
+    margin-left: 530px;
+    margin-right: auto;
 }
 
 .bg {
